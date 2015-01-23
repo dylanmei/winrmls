@@ -1,0 +1,6 @@
+
+bin:
+	@go get github.com/jteeuwen/go-bindata/...
+	@go-bindata posh/...
+
+.PHONY: bin
